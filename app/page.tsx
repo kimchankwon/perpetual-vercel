@@ -8,6 +8,7 @@ export const metadata: Metadata = {
 };
 
 const Home = () => {
+  console.log(process.env.NEXT_PUBLIC_WS_URL);
   return (
     <div>
       <Suspense>
